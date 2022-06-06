@@ -6,6 +6,8 @@ Utility return string different two files.
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Morozov33/python-project-lvl2/workflows/hexlet-check/badge.svg)](https://github.com/Morozov33/python-project-lvl2/actions)
 
+[![tests](https://github.com/Morozov33/python-project-lvl2/actions/workflows/tests.yml/badge.svg)](https://github.com/Morozov33/python-project-lvl2/actions/workflows/tests.yml)
+
 ### Asciinema records:
 [![asciicast](https://asciinema.org/a/v9MarSEYu6XMTARDvxsBW6Ceq.svg)](https://asciinema.org/a/v9MarSEYu6XMTARDvxsBW6Ceq)
 
