@@ -19,4 +19,8 @@ jobs:
           make test
       - name: Code Climate Coverage Action
         uses: paambaati/codeclimate-action@v3.0.0
-
+        env:
+            CC_TEST_REPORTER_ID: b5765575da2eb5ebd3a23c7914786590d0e57d63251d40d7a9d42b7ccfd03fdd
+            with:
+            coverageCommand: make coverage
+            debug: true
