@@ -16,4 +16,3 @@ file_2 = './tests/fixtures/file2.json'
 
 def test_gendiff():
     assert generate_diff(file_1, file_2) == result
-
