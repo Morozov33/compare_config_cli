@@ -1,1 +1,3 @@
-import gendiff.gendiff gendiff.diff gendiff.parser_file
+import gendiff.gendiff
+import gendiff.diff
+import gendiff.parser_file
