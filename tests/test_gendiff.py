@@ -14,7 +14,7 @@ file_2_yml = './tests/fixtures/file2.yml'
 
 def test_gendiff_stylish():
     with open(result, 'r') as res:
-        result_str = res.read()
+        result_str = res.read()[:-1:]
         assert generate_diff(file1json, file2json) == result_str
         assert generate_diff(file1yaml, file2yaml) == result_str
         assert generate_diff(file_1_yml, file_2_yml) == result_str
@@ -22,7 +22,7 @@ def test_gendiff_stylish():
 
 def test_gendiff_plain():
     with open(result_plain, 'r') as res:
-        result_str = res.read()
+        result_str = res.read()[:-1:]
         assert generate_diff(file1json, file2json,
                              format_name='plain') == result_str
         assert generate_diff(file1yaml, file2yaml,

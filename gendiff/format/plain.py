@@ -24,4 +24,4 @@ def plain(source):
                 result_str = plain_to_way(children, way_key + '.')
             result.append(result_str)
         return ''.join(result)
-    return ''.join(plain_to_way(source, ''))
+    return ''.join(plain_to_way(source, ''))[:-1:]
