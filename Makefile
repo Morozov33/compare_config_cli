@@ -9,7 +9,7 @@ package-install: #install package
 	python3 -m pip install --user dist/*.whl
 
 lint: #linter for code
-	poetry run flake8 gendiff tests
+	poetry run flake8 --ignore=F401 gendiff tests
 
 test-package: #test package without install
 	poetry run python3 -m gendiff.scripts.script_gendiff -f json ./tests/fixtures/file1.json ./tests/fixtures/file2.json
