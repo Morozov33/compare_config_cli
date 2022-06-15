@@ -1,3 +1,1 @@
-import gendiff.gendiff
-import gendiff.diff
-import gendiff.parser_file
+from gendiff.gendiff import generate_diff
