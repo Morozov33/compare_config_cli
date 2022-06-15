@@ -2,7 +2,7 @@ def diff(file1, file2):
     result = {}
     keys_1 = set(file1.keys())
     keys_2 = set(file2.keys())
-    keys = list(keys_1.union(keys_2))
+    keys = sorted(list(keys_1.union(keys_2)))
     for key in keys:
         value1 = file1.get(key, 'empty')
         value2 = file2.get(key, 'empty')

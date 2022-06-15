@@ -4,7 +4,7 @@ from gendiff.format.get_format import get_format
 def plain(source):
     def plain_to_way(source, way):
         result = []
-        for key in sorted(list(source.keys())):
+        for key in list(source.keys()):
             way_key = way + key
             result_str = ''
             children = source.get(key).get('children')

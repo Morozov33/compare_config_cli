@@ -16,3 +16,4 @@ Utility return string different two files.
 ### Asciinema records:
 [![asciicast](https://asciinema.org/a/v9MarSEYu6XMTARDvxsBW6Ceq.svg)](https://asciinema.org/a/v9MarSEYu6XMTARDvxsBW6Ceq)
 [![asciicast](https://asciinema.org/a/jE9t0rn42W3AipGUyraJZY3A2.svg)](https://asciinema.org/a/jE9t0rn42W3AipGUyraJZY3A2)
+[![asciicast](https://asciinema.org/a/Pd5woLcXVvGtudMF0VcQEpRNR.svg)](https://asciinema.org/a/Pd5woLcXVvGtudMF0VcQEpRNR)

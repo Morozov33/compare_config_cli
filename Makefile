@@ -12,7 +12,7 @@ lint: #linter for code
 	poetry run flake8 gendiff tests
 
 test-package: #test package without install
-	poetry run python3 -m gendiff.scripts.script_gendiff -f plain ./tests/fixtures/file1.json ./tests/fixtures/file2.json
+	poetry run python3 -m gendiff.scripts.script_gendiff -f json ./tests/fixtures/file1.json ./tests/fixtures/file2.json
 
 update: #update dependencies
 	poetry update --lock
