@@ -18,5 +18,11 @@ def get_format(value, form, depth=0):
         elif form == 'plain':
             result_str = '[complex value]'
     else:
-        result_str = str(value) if form == 'stylish' else value
+        if form == 'stylish':
+            result_str = str(value)
+        elif form == 'plain':
+            if type(value) is int:
+                result_str = str(value)
+            else:
+                result_str = f"'{value}'"
     return result_str
