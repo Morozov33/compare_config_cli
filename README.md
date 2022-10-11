@@ -1,8 +1,5 @@
-This is learning project number two to Hexlet.io, course of Python-development.
-Project is console utility for compare two config files.
-Files may be in format: JSON (.json) or YAML (.yaml or .yml).
-Utility return string different two files.
-Result string my be text or json-format or tree-structure.
+It's a console utility for comparing two config files. Files may be in format: JSON (.json) or YAML (.yaml or .yml). 
+Utility return string different two files. Result string may be text or json-format or tree-structure.
 
 
 ### Hexlet tests and linter status:
