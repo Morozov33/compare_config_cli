@@ -1,8 +1,7 @@
-It's a console utility for comparing two config files. Files may be in format: JSON (.json) or YAML (.yaml or .yml). 
+It's a console utility for comparing two config files. Files may be in format: JSON (.json) or YAML (.yaml or .yml).
 Utility return string different two files. Result string may be text or json-format or tree-structure.
 ---
 ### Tests and linter status:
-[![Actions Status](https://github.com/Morozov33/python-project-lvl2/workflows/hexlet-check/badge.svg)](https://github.com/Morozov33/python-project-lvl2/actions)
 [![tests](https://github.com/Morozov33/python-project-lvl2/actions/workflows/tests.yml/badge.svg)](https://github.com/Morozov33/python-project-lvl2/actions/workflows/tests.yml)  
 
 ### Code Climate:
